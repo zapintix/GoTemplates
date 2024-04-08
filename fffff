@@ -1,0 +1,11 @@
+curl http://localhost:8080/cats/
+###
+curl http://localhost:8080/cats/4
+###
+curl -X "POST" http://localhost:8080/cats/
+--data '{"id": "4","name": "За деньши да","age": 3,"breed": "fff"}'
+###
+curl -X "DELETE" http://localhost:8080/cats/1
+###
+curl -X "PUT" http://localhost:8080/cats/4
+--data '{"name": "настя", "breed":"испанская"}'
